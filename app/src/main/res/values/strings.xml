@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tutorial6</string>
+    <string name="cb_text_cpp">C++</string>
+    <string name="cb_text_java">Java</string>
+    <string name="cb_text_golang">Golang</string>
+    <string name="btn_text_1">Ok</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wuriyanto.tutorial6.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:id="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_cpp"
+        android:layout_below="@id/tv_title"
+        android:text="@string/cb_text_cpp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_java"
+        android:layout_below="@id/cb_cpp"
+        android:text="@string/cb_text_java"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_golang"
+        android:layout_below="@id/cb_java"
+        android:text="@string/cb_text_golang"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_below="@id/cb_golang"
+        android:text="@string/btn_text_1"
+        />
+
+</RelativeLayout>
